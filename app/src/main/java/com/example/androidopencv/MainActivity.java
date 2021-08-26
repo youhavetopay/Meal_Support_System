@@ -46,7 +46,8 @@ import java.util.Locale;
  * https://github.com/ivangrov/Android-Deep-Learning-with-OpenCV
  *  여기 유튜브 참고함
  * 
- * 
+ *
+ *
  * **/
 public class MainActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2 {
 
