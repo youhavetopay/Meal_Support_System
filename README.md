@@ -1,6 +1,6 @@
 시각장애인을 위한 식사보조 시스템
 ====
-작동하는 움짤 넣기
+<!-- 작동하는 움짤 넣기 -->
 
 ##### 서비스 소개
 **시각장애인**은 식사를 할때 보조인이 없을 경우 해당음식이 무엇인지 모르고 
@@ -17,17 +17,17 @@
 
 -----------
 
-### 1. 시스템 구성도
-구성도 사진 넣기
+### 1. 시스템 구성도 및 아키텍처
+<img src="readme_Img/시스템구성도.PNG" width="325px" alt="구성도"></img>  <img src="readme_Img/시스템아키텍쳐.PNG" width="350px" alt="아키텍처"></img>
 * Object Detection 모델로는 YOLOv3-tiny 사용
 * Darknet을 기반으로 학습 후 OpenCV를 통해 Android App 개발
 * 사용한 Darknet : https://github.com/AlexeyAB/darknet
 
 ### 2. 사용 데이터셋
-aihub 이미지 넣기
+<img src="readme_Img/aihub사진.PNG" width="325px" alt="구성도"></img>
 * AiHub에서 제공하는 '음식 이미지 및 영양정보 텍스트' 데이터셋 사용
-* 직접 촬영한 이미지 사용
-* 이 둘을 적절히 섞어 사용했습니다.
+* 직접 촬영한 이미지 사용   
+--> 이 둘을 적절히 섞어 사용했습니다.
 
 ### 3. 개발 과정
 1. 수집한 데이터셋을 전처리 및 라벨링 진행
